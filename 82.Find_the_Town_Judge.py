@@ -7,7 +7,7 @@
 # If the town judge exists and can be identified, return the label of the town judge.  Otherwise, return -1.
 
 class Solution:
-    def findJudge(self, n: int, trust: list]) -> int:
+    def findJudge(self, n: int, trust: list) -> int:
         
         trusted = [0] * (n+1)
         for a, b in trust:
